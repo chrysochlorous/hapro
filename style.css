@@ -1,0 +1,58 @@
+/*
+	Theme Name: Health Alliance 2019
+	Theme URI: http://html5blank.com
+	Description: Health Alliance WP -- based on HTML5 Blank WordPress Theme; design based on Health Alliance - Original
+	Version: 2019
+*/
+	@import "css/hapro.css";
+
+a.skip-nav {
+    background-color: #fff;
+    border: 5px solid #583b5a;
+    font-weight: bold;
+    left: 0;
+    padding: 5px 10px;
+    position: absolute;
+    top: -150px;
+    z-index: 9;
+}
+h2 a, h2 a:visited {
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: inherit;
+}
+.postdate {
+    color: #A2A4A5;
+    font-family: "Roboto","Helvetica",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.page-numbers {
+    text-align: center;
+    margin-top: 1rem;
+}
+.page-numbers li {
+    margin: 0 0.5rem !important;
+    display: inline-block;
+}
+form.search input, form.search button {
+    font-size: 1rem;
+    padding: 12px;
+    font-family: "Roboto","Helvetica",sans-serif;
+    border: 1px solid #6344A7;
+}
+form.search input {
+    border-radius: 5px 0 0 5px;
+    width: 70%;
+    float: left;
+}
+form.search button {
+    background-color: #6344A7;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    width: 30%;
+    float: right;
+}

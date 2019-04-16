@@ -1,0 +1,1 @@
+submitter-first, submitter-last, reward, email, address, email_status, mailchimp_status
