@@ -11,8 +11,7 @@
 <?php bloginfo('name'); ?>
 </title>
 
-<!-- Load CSS http://hapro:8888/Users/Oberon/Projects/HAMP/hapro/mamp-wp/wp-content/themes/pro2019/style.css -->
-<link rel="stylesheet" href="/wp-content/themes/pro2019/style.css'" />
+<link rel="stylesheet" href="/wp-content/themes/hapro/style.css'" />
 
 <!-- Link RSS -->
 <?php if(strpos($_SERVER[HTTP_HOST], "group.healthalliance.org") !== false){ ?>
@@ -70,7 +69,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<nav>
 			<div class="wrapper">
 				<div class="inner-container">
-					<a href="/"><img src="/wp-content/themes/pro2019/assets/logo.png"></a>
+					<a href="/"><img src="/wp-content/themes/hapro/assets/logo.png"></a>
 					<div class="right browser">
 						<?php wp_nav_menu( array('menu' => '15' ) ); ?>
 						<a href="https://login.healthalliance.org/Account/Login"><button class="purple">Sign In</button></a>

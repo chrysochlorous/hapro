@@ -25,7 +25,7 @@
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/pro2019/js/primary.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/pro2019/js/mobile.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/pro2019/js/search.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/hapro/js/primary.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/hapro/js/mobile.js"></script>
+	<script type="text/javascript" src="/wp-content/themes/hapro/js/search.js"></script>
 </body></html>
