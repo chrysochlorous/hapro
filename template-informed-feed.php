@@ -1,5 +1,5 @@
 <!-- INFORMED -->
-<?php /* Template Name: Providers - InforMED Feed */ get_header(); ?>
+<?php /* Template Name: InforMED */ get_header(); ?>
 
 <!-- start primary content -->
 			<div class="primary">

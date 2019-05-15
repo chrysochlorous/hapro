@@ -1,5 +1,5 @@
 <!-- CODING COUNTS ARCHIVE -->
-<?php /* Template Name: Coding Counts Archive */ get_header(); ?>
+<?php /* Template Name: Coding Counts */ get_header(); ?>
 
 <!-- start primary content -->
 			<div class="primary">
