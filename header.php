@@ -63,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<ul id="15" class="menu">
 						<li><a href="/">Home</a></li>
 					</ul>
-					<?php wp_nav_menu( array('menu' => 'header-menu' ) ); ?>
+					<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
 			</div>
 		</div>
 		<div class="faded-layer"></div>
@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="inner-container">
 					<a href="/"><img src="/wp-content/themes/hapro/assets/logo.png"></a>
 					<div class="right browser">
-						<?php wp_nav_menu( array('menu' => '15' ) ); ?>
+						<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
 						<a href="https://login.healthalliance.org/Account/Login"><button class="purple">Sign In</button></a>
 					</div>
 					<div class="right mobile">
