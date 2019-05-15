@@ -47,14 +47,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body <?php body_class(); ?>>
-	<?php
-
-$menus = get_registered_nav_menus();
-
-foreach ( $menus as $location => $description ) {
-
-	echo $location . ': ' . $description . '<br />';
-} ?>
+<?php
+	$menus = get_registered_nav_menus();
+	print_r($menus);
+?>
 <a href="#skip-nav" class="skip-nav" id="top">Skip Navigation</a> 
 <!-- Google Tag Manager (noscript) 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3W77FM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
