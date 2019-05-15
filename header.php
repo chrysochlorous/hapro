@@ -47,10 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body <?php body_class(); ?>>
-<?php
-	$menus = get_registered_nav_menus();
-	print_r($menus);
-?>
+
 <a href="#skip-nav" class="skip-nav" id="top">Skip Navigation</a> 
 <!-- Google Tag Manager (noscript) 
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3W77FM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
@@ -66,7 +63,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<ul id="15" class="menu">
 						<li><a href="/">Home</a></li>
 					</ul>
-					<?php wp_nav_menu( array('menu' => '15' ) ); ?>
+					<?php wp_nav_menu( array('menu' => 'header-menu' ) ); ?>
 			</div>
 		</div>
 		<div class="faded-layer"></div>
