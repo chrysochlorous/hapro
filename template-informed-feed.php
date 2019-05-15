@@ -6,7 +6,7 @@
 
 				<div class="single-page">
 					<h1 class="title">Informed</h1>
-					<p class="page-description">Insert description here</p>
+					<!-- <p class="page-description">Insert description here</p> -->
 					<div class="line"></div>
 
 

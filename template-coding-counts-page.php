@@ -1,14 +1,14 @@
 <!-- CODING COUNTS -->
-<?php /* Template Name: Coding Counts Page */ get_header(); ?>
+<?php /* Template Name: Coding Counts Subpage */ get_header(); ?>
 
 <!-- start primary content -->
 			<div class="primary">
 
 				<div class="single-page">
 					<h1 class="title">Coding Counts</h1>
-					<p class="page-description">Insert description here</p>
+					<!-- <p class="page-description">Insert description here</p> -->
 					<div class="sub-nav">
-						<?php wp_nav_menu( array('menu' => '16' ) ); ?>
+						<?php wp_nav_menu( array('menu' => '17' ) ); ?>
 					</div>
 
 
