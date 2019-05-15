@@ -1,5 +1,5 @@
 <!-- CODING COUNTS -->
-<?php /* Template Name: Providers - Coding Counts Page */ get_header(); ?>
+<?php /* Template Name: Coding Counts Page */ get_header(); ?>
 
 <!-- start primary content -->
 			<div class="primary">
