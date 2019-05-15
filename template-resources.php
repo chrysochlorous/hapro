@@ -1,4 +1,4 @@
-<!-- CODING COUNTS -->
+<!-- RESOURCES -->
 <?php /* Template Name: Resources */ get_header(); ?>
 <?php get_header(); ?>
 
@@ -6,7 +6,17 @@
 
 			<div class="text-container">
                 <h2 class="title"><?php the_title(); ?></h2>
+                <?php if(strpos($_SERVER[HTTP_HOST], "group.healthalliance.org") !== false){ ?>
+                <p class="page-description">Find resources to help you make informed decisions about your company’s health insurance.</p>
+				<?php	} ?>
+
+				<?php if(strpos($_SERVER[HTTP_HOST], "provider.healthalliance.org") !== false){ ?>
                 <p class="page-description">Find forms and resources to better work with us as you care for your patients.</p>
+				<?php	} ?>
+
+				<?php if(strpos($_SERVER[HTTP_HOST], "broker.healthalliance.org") !== false){ ?>
+                <p class="page-description">Find forms and resources you’ll need to sell our plans and work with your clients.</p>
+				<?php	} ?>
             </div>
 
 
