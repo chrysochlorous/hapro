@@ -62,24 +62,28 @@
 <!-- START SIDEBAR -->
 			<?php get_sidebar(); ?>
 
-			<div id="mailchimpit">
-			<!-- Begin MailChimp Signup Form -->
-				<div id="mc_embed_signup" class="panel text-center">
-					<form action="//healthalliance.us12.list-manage.com/subscribe/post?u=6a55a9ae0c586bdd1a6a6ed4b&amp;id=<?php echo $mailchimp_id; ?>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<div id="mc_embed_signup_scroll">
-								<p for="mce-EMAIL">Stay in the loop,<br>get emails of every new post!<br><br>
-								<input type="email" value="" name="EMAIL" class="email input-group-field text-center" id="mce-EMAIL" placeholder="email address" required>
-								<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button expanded" style="padding:0.8rem 1em;"></p>
-							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-							<div style="position: absolute; left: -5000px;" aria-hidden="true">
-								<input type="text" name="b_6a55a9ae0c586bdd1a6a6ed4b_<?php echo $mailchimp_id; ?>" tabindex="-1" value="">
-							</div>
+			<div class="box">
+                <div class="inner-container">
+					<div id="mailchimpit">
+					<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup" class="panel text-center">
+							<form action="//healthalliance.us12.list-manage.com/subscribe/post?u=6a55a9ae0c586bdd1a6a6ed4b&amp;id=<?php echo $mailchimp_id; ?>" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<div id="mc_embed_signup_scroll">
+										<p for="mce-EMAIL">Stay in the loop,<br>get emails of every new post!<br><br>
+										<input type="email" value="" name="EMAIL" class="email input-group-field text-center" id="mce-EMAIL" placeholder="email address" required>
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button expanded" style="padding:0.8rem 1em;"></p>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" name="b_6a55a9ae0c586bdd1a6a6ed4b_<?php echo $mailchimp_id; ?>" tabindex="-1" value="">
+									</div>
+								</div>
+							</form>
 						</div>
-					</form>
-				</div>
-			<!--End mc_embed_signup-->
-			<p style="margin:-3rem 0 0" class="text-center"><small><a href="/feed/?post_type=flash">Subscribe to RSS</a></small></p>
-		</div>
+						<!--End mc_embed_signup-->
+						<p style="margin:-3rem 0 0" class="text-center"><small><a href="/feed/?post_type=flash">Subscribe to RSS</a></small></p>
+					</div>
+                </div>
+            </div>
 <!-- end SIDEBAR -->
 			<div class="clear"></div>
 		</div>
