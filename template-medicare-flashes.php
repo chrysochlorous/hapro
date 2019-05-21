@@ -7,6 +7,23 @@
 				<div class="single-page">
 					<h1 class="title"><?php the_title(); ?></h1>
 					<!-- <p class="page-description">Insert description here</p> -->
+				
+					<!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup" class="panel text-center">
+							<form action="//healthalliance.us12.list-manage.com/subscribe/post?u=6a55a9ae0c586bdd1a6a6ed4b&amp;id=401e149292" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+								<div id="mc_embed_signup_scroll">
+										<p for="mce-EMAIL">Stay in the loop,<br>get emails of every new post!<br><br>
+										<input type="email" value="" name="EMAIL" class="email input-group-field text-center" id="mce-EMAIL" placeholder="email address" required>
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button expanded" style="padding:0.8rem 1em;"></p>
+									<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;" aria-hidden="true">
+										<input type="text" name="b_6a55a9ae0c586bdd1a6a6ed4b_401e149292" tabindex="-1" value="">
+									</div>
+								</div>
+							</form>
+						</div>
+						<!--End mc_embed_signup-->
+						<p style="margin:-3rem 0 0" class="text-center"><small><a href="/feed/?post_type=flash">Subscribe to RSS</a></small></p>
 
 
 
