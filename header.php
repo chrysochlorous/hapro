@@ -73,7 +73,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<a href="/"><img src="/wp-content/themes/hapro/assets/logo.png"></a>
 					<div class="right browser">
 						<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
+						<?php if(strpos($_SERVER[HTTP_HOST], "news.healthalliance.org") !== false){ ?>
 						<a href="https://login.healthalliance.org/Account/Login"><button class="purple">Sign In</button></a>
+						<?php	} ?>
 					</div>
 					<div class="right mobile">
 						<i class="icon-align-right"></i>
