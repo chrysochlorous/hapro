@@ -70,7 +70,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<nav>
 			<div class="wrapper">
 				<div class="inner-container">
-					<a href="/"><img src="/wp-content/themes/hapro/assets/logo.png"></a>
+					<a href="/"><img alt="Health Alliance" src="https://www.healthalliance.org/images/logo-generic.png" height="90">
+</a>
 					<div class="right browser">
 						<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
 						<?php if(strpos($_SERVER[HTTP_HOST], "news.healthalliance.org") === false){ ?>
