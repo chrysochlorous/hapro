@@ -22,9 +22,10 @@ nav {
 
 			ul {
 				display:inline-block;
+				padding:0;
 				position:relative;
 				float:left;
-				margin-right:10px;
+				margin:0 10px 0 0;
 				transform:translateY(50%);
 
 				a {
@@ -40,7 +41,7 @@ nav {
 					@extend .hover;
 				}
 
-				.current-menu-item a {
+				a.current {
 					color:$purple;
 				}
 

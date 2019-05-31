@@ -126,13 +126,28 @@ a:visited {
 	color:$purple;
 }
 
-ul	{
-	list-style-type: none;
-	margin:0;
-	padding:0;
+ul {
 
 	li {
-		margin:0 0 0.8125rem 0;
+		list-style-type:disc;
+		margin-left:20px;
+		margin-top:5px;
+	}
+
+}
+
+table {
+	border:1px solid $border !important;
+	color:$black;
+	font-family:$font;
+	font-weight:$light;
+	font-size:1rem;
+	line-height:1.625rem;
+	border-spacing:0;
+
+	td, th, tr {
+		padding:10px 20px;
+		border:1px solid $border !important;
 	}
 
 }
