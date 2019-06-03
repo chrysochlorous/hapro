@@ -1,4 +1,4 @@
-
+@import 'global';
 
 //resource header rules
 div.text-container {
@@ -75,6 +75,17 @@ div.primary {
 			color:$grey;
 			font-size:21px;
 			line-height:32px;
+		}
+
+		ul {
+			margin-left:20px;
+
+			li {
+				list-style-type:disc;
+				margin-left:20px;
+				margin-top:5px;
+			}
+
 		}
 
 		div.sub-nav {

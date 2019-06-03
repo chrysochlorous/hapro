@@ -127,11 +127,12 @@ a:visited {
 }
 
 ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
 
 	li {
-		list-style-type:disc;
-		margin-left:20px;
-		margin-top:5px;
+		margin:0 0 0.8125rem 0;
 	}
 
 }
@@ -186,5 +187,3 @@ button.clear {
 	font-size:0.9375rem;
 	@extend .hover;
 }
-
-
