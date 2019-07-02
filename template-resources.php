@@ -22,7 +22,7 @@
 
 			<!-- start search -->
 			<style>
-				#results a { display: block; margin: 1.25rem 0; }
+				#results a { display: block; margin: 1.25rem 0; line-height: 1.3; }
 			</style>
 			<div class="search">
 				<i class="icon-search"></i>
