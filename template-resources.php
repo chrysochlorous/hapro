@@ -33,7 +33,7 @@
 						<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 							<ul>
 							<?php
-								$string = '<b></b>'.strip_tags(get_the_content(),'<li><a>');
+								$string = '<b></b>'.strip_tags(get_the_content(),'<a>');
 								$pattern = '/(<\/[^>]+>)[^<]*(<[^>]+>)/';
 								$replacement = '$1$2';
 								echo preg_replace($pattern, $replacement, $string);
