@@ -21,6 +21,9 @@
 
 
 			<!-- start search -->
+			<style>
+				#results a { display: block; margin: 1.25rem 0; }
+			</style>
 			<div class="search">
 				<i class="icon-search"></i>
 				<input list=search id="searchbar" class="searchbar" type="text" name="searchbar" placeholder="Search resources" onfocus="">
@@ -28,14 +31,14 @@
 					<div class="container">
 				
 						<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-						
+							<ul>
 							<?php
-								$string = '<b></b>'.strip_tags(get_the_content(),'<a>');
+								$string = '<b></b>'.strip_tags(get_the_content(),'<li><a>');
 								$pattern = '/(<\/[^>]+>)[^<]*(<[^>]+>)/';
 								$replacement = '$1$2';
 								echo preg_replace($pattern, $replacement, $string);
 							?>
-						
+							</ul>
 						<?php endwhile; ?>
 						
 						<?php endif; ?>
