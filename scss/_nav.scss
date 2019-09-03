@@ -25,6 +25,7 @@ nav {
 				padding:0;
 				position:relative;
 				float:left;
+				list-style-type: none;
 				margin:0 10px 0 0;
 				transform:translateY(50%);
 
@@ -37,6 +38,7 @@ nav {
 
 				li {
 					display:inline;
+					list-style-type: none;
 					margin:0 1.125rem;
 					@extend .hover;
 				}
