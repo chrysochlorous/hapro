@@ -4,7 +4,7 @@
 	Description: Health Alliance WP -- based on HTML5 Blank WordPress Theme; design based on Health Alliance - Original
 	Version: 2019
 */
-	@import "css/hapro.css";
+	@import "/wp-content/themes/hapro/css/hapro.css";
 
 a.skip-nav {
     background-color: #fff;
