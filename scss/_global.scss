@@ -1,5 +1,4 @@
 // fonts
-
 $bold-font:"Roboto", "Helvetica", sans-serif;
 $light-font: "Roboto", "Helvetica", sans-serif;
 $link-font:"Roboto", "Arial", sans;
@@ -12,7 +11,6 @@ $bold:700;
 
 
 // colors
-
 $black:#080808;
 $border:#EDEFEF;
 $grey:#404142;
@@ -25,7 +23,6 @@ $date:#A2A4A5;
 
 
 //global rules
-
 * { 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -134,6 +131,10 @@ ul {
 		margin:0.5rem 0 0.8125rem 2rem;
 	}
 
+}
+
+div.accordian div.content ul {
+	list-style-type: none;
 }
 
 table {
