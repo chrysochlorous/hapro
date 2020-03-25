@@ -37,20 +37,21 @@
 <link rel="icon" href="//www.healthalliance.org/favicon.ico" type="image/x-icon" sizes="16x16" />
 <?php wp_head(); ?>
 
-<!-- Google Tag Manager --><!--
+<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N3W77FM');</script>
- End Google Tag Manager -->
+})(window,document,'script','dataLayer','GTM-NWP95X4');</script>
+<!-- End Google Tag Manager -->
 
 </head>
 <body <?php body_class(); ?>>
 
 <a href="#skip-nav" class="skip-nav" id="top">Skip Navigation</a> 
-<!-- Google Tag Manager (noscript) 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3W77FM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWP95X4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 
