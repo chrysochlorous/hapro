@@ -8,7 +8,7 @@
 						<li><a href="https://www.healthalliance.org/privacy-policy">Legal & Privacy</a></li>
 						<li><a href="https://www.healthalliance.org/media/Resources/privacy_practices.pdf">Privacy Practices</a></li>
 						<li><a href="https://www.healthalliance.org/media/Resources/code-of-conduct-web.pdf">Code of Conduct</a></li>
-						<li><a href="https://www.healthalliance.org/media/Resources/cmp-nondiscnotice15.pdf">Non-Discrimination Notice</a></li>
+						<li><a href="https://medicare.healthalliance.org/media/Resources/med-cmp-nondiscnotice.pdf">Non-Discrimination Notice</a></li>
 						<li><a href="https://www.healthalliance.org/media/Resources/policies-and-procedures.pdf">Policies & Procedures</a></li>
 					</ul>
 					<div class="right">
