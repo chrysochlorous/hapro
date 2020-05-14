@@ -2,7 +2,13 @@
 <?php /* Template Name: Resources */ get_header(); ?>
 <?php get_header(); ?>
 
-
+      <div class="banner">
+        <div class="wrapper">
+          <?php if(strpos($_SERVER[HTTP_HOST], "provider.healthalliance.org") !== false){ ?>
+                <p>Outpatient procedures, Outpatient referrals, DME and any authorizations submitted to eviCore since 2/1/20 have been updated to an approval window of 180 days. As of May 1, over 11,000 authorizations have had their approval extended through August, September or October. Authorizations submitted through 5/31/20 will continue to receive this extended approval window.</p>
+        <?php } ?>
+        </div>
+      </div>
 
 			<div class="text-container">
                 <h2 class="title"><?php the_title(); ?></h2>
