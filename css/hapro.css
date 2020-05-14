@@ -465,15 +465,15 @@ div.text-container p.page-description {
 }
 
 div.banner {
-  background-color: #6344A7;
-  border-left: 3px solid #F2C14B;
-  margin: 0;
+  border-left: 3px solid #FFFFFF;
+  margin: 20px 0 0 0;
   padding: 12px 0 12px 10px;
   width: 100%;
 }
 div.banner p {
-  color: #FFFFFF;
+  color: #6344A7;
   font-size: 14px;
+  font-weight: 500;
   margin: 0;
 }
 

@@ -20,14 +20,14 @@ div.text-container {
 	}
 }
 div.banner {
-  background-color:$purple;
-  border-left:3px solid $yellow;
-  margin:0;
+  border-left:3px solid $white;
+  margin:20px 0 0 0;
   padding:12px 0 12px 10px;
   width:100%;
   p {
-    color:$white;
+    color:$purple;
     font-size:14px;
+    font-weight:500;
     margin:0;
   }
 }
