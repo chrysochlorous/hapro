@@ -20,12 +20,13 @@ div.text-container {
 	}
 }
 div.banner {
-  border-left:3px solid $purple;
-  margin:20px 0 0 0;
+  background-color:$purple;
+  border-left:3px solid $yellow;
+  margin:0;
   padding:12px 0 12px 10px;
   width:100%;
   p {
-    color:$purple;
+    color:$white;
     font-size:14px;
     margin:0;
   }
