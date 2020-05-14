@@ -464,6 +464,18 @@ div.text-container p.page-description {
   font-weight: 400;
 }
 
+div.banner {
+  background-color: #6344A7;
+  margin: 0;
+  padding: 12px 0;
+  width: 100%;
+}
+div.banner p {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 0;
+}
+
 div.primary {
   display: inline-block;
   width: 70%;

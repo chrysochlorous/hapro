@@ -18,7 +18,17 @@ div.text-container {
 		color:$dark-grey;
 		font-weight:400;
 	}
-
+}
+div.banner {
+  background-color:$purple;
+  margin:0;
+  padding:12px 0;
+  width:100%;
+  p {
+    color:$white;
+    font-size:14px;
+    margin:0;
+  }
 }
 
 //primary rules 
