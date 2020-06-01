@@ -2,13 +2,13 @@
 <?php /* Template Name: Resources */ get_header(); ?>
 <?php get_header(); ?>
 
-      <div class="banner">
+      <!-- <div class="banner">
         <div class="wrapper">
           <?php if(strpos($_SERVER[HTTP_HOST], "provider.healthalliance.org") !== false){ ?>
-                <!-- <p></p> -->
+                <p></p>
         <?php } ?>
         </div>
-      </div>
+      </div>  -->
 
 			<div class="text-container">
                 <h2 class="title"><?php the_title(); ?></h2>
