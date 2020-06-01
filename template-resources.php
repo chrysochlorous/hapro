@@ -5,7 +5,7 @@
       <div class="banner">
         <div class="wrapper">
           <?php if(strpos($_SERVER[HTTP_HOST], "provider.healthalliance.org") !== false){ ?>
-                <p></p>
+                <!-- <p></p> -->
         <?php } ?>
         </div>
       </div>
