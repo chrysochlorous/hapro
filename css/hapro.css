@@ -1,3 +1,6 @@
+/*
+sass --watch scss/hapro.scss:css/hapro.css
+*/
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 @import "https://s3.amazonaws.com/icomoon.io/45098/Pro/style.css?ju6lyj";
 * {
@@ -520,6 +523,11 @@ div.primary div.single-page p.page-description {
   color: #404142;
   font-size: 21px;
   line-height: 32px;
+}
+div.primary div.single-page p.note {
+  color: #404142;
+  font-size: 16px;
+  line-height: 24px;
 }
 div.primary div.single-page ul {
   margin-left: 20px;

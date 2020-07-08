@@ -7,6 +7,7 @@
 				<div class="single-page">
 					<h1 class="title">For Your Business</h1>
 					<p class="page-description">Whitepapers, infographics, and resources to help you make the most of health insurance.</p>
+          <p class="note"><strong>Please note:</strong> not all materials may be applicable to plan offerings in your area.</p>
 					<div class="sub-nav">
 						<?php wp_nav_menu( array('menu' => '17' ) ); ?>
 					</div>
