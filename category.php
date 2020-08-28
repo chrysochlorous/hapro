@@ -6,6 +6,11 @@
 			<h1 class="title"><?php _e( '', 'html5blank' ); single_cat_title(); ?></h1>
 		
 			<?php 
+			// Modify the default loop, include custom post types
+			global $wp_query;
+			$args = array_merge( $wp_query->query, array( 'post_type' => 'any' ) );
+			query_posts( $args );
+			
 			// Check if there are any posts to display
 			if ( have_posts() ) : ?>
 			 
