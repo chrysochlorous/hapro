@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<nav>
 			<div class="wrapper">
 				<div class="inner-container">
-					<a href="/"><img alt="Health Alliance" src="https://www.healthalliance.org/images/logo-generic.png" height="90">
+					<a href="/"><img alt="Health Alliance" src="/wp-content/themes/hapro/images/logo.png" height="90">
 </a>
 					<div class="right browser">
 						<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
