@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- nav start -->
 		<div class="slide-out">
 			<div class="container">
-				<i class="icon-align-center"></i>
+				<i class="icon-close"></i>
 					<ul id="15" class="menu">
 						<li><a href="/">Home</a></li>
 					</ul>
