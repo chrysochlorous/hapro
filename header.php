@@ -60,7 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- nav start -->
 		<div class="slide-out">
 			<div class="container">
-				<i class="icon-close"></i>
+				<i class="icon-close" id="close-mobile-menu"></i>
 					<ul id="15" class="menu">
 						<li><a href="/">Home</a></li>
 					</ul>
@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<?php	} ?>
 					</div>
 					<div class="right mobile">
-						<i class="icon-align-right"></i>
+						<i class="icon-align-right" id="open-mobile-menu"></i>
 					</div>
 				</div>
 			</div>
