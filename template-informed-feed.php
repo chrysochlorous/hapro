@@ -7,9 +7,7 @@
 				<div class="single-page">
 					<h1 class="title">Informed</h1>
 					<!-- <p class="page-description">Insert description here</p> -->
-					<p><a href="/northwest-informed-signup/">Subscribe to Northwest Informed Emails</a><br>
-					<a href="/reid-informed-signup/">Subscribe to Reid Informed Emails</a><br>
-					<a href="/midwest-informed-signup/">Subscribe to Midwest Informed Emails</a></p>
+					<p><a href="/informed-signup/">Subscribe to Informed Emails</a></p>
 					<div class="line"></div>
 
 
