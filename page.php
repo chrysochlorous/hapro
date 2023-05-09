@@ -4,10 +4,10 @@
 
 
 <!-- start primary content -->
-			<div class="primary">
-				
+		<div class="primary">
+			<div class="single-post"
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-					<br><br>
+					
 					<h1 class="title"><?php the_title(); ?></h1>
 
 					<!-- article -->
@@ -29,6 +29,7 @@
 				
 				<?php endif; ?>
 			</div>
+		</div>
 <!-- end primary content -->
 
 <!-- START SIDEBAR -->
