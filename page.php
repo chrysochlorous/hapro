@@ -7,8 +7,8 @@
 			<div class="primary">
 				
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-				
-					<h3 class="title"><?php the_title(); ?></h3>
+					<br><br>
+					<h1 class="title"><?php the_title(); ?></h1>
 
 					<!-- article -->
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
