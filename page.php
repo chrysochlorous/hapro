@@ -6,9 +6,8 @@
 <!-- start primary content -->
 		<div class="primary">
 			<div class="single-post">
+				<h1 class="title"><?php the_title(); ?></h1>
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-					
-					<h1 class="title"><?php the_title(); ?></h1>
 
 					<!-- article -->
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
