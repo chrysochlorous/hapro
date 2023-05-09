@@ -5,7 +5,7 @@
 
 <!-- start primary content -->
 		<div class="primary">
-			<div class="single-post"
+			<div class="single-post">
 				<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 					
 					<h1 class="title"><?php the_title(); ?></h1>
