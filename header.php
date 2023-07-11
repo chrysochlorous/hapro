@@ -14,19 +14,19 @@
 <link rel="stylesheet" href="/wp-content/themes/hapro/style.css'" />
 
 <!-- Link RSS -->
-<?php if(strpos($_SERVER[HTTP_HOST], "group.healthalliance.org") !== false){ ?>
+<?php if(strpos($_SERVER['HTTP_HOST'], "group.healthalliance.org") !== false){ ?>
 <?php $gaCode = 'UA-92345360-1'?>
 <link rel="alternate" type="application/rss+xml" title="Group Flashes" href="/feed/?post_type=flash" />
 <link rel="alternate" type="application/rss+xml" title="Group Announcements" href="/feed/?post_type=announcement" /> 
 <?php	} ?>
 
-<?php if(strpos($_SERVER[HTTP_HOST], "provider.healthalliance.org") !== false){ ?>
+<?php if(strpos($_SERVER['HTTP_HOST'], "provider.healthalliance.org") !== false){ ?>
 <link rel="alternate" type="application/rss+xml" title="Coding Counts Posts" href="/feed/?post_type=coding-counts-post" />
 <link rel="alternate" type="application/rss+xml" title="InforMED Posts" href="/feed/?post_type=informed-post" />
 <link rel="alternate" type="application/rss+xml" title="Provider Announcements" href="/feed/?post_type=announcement" /> 
 <?php	} ?>
 
-<?php if(strpos($_SERVER[HTTP_HOST], "broker.healthalliance.org") !== false){ ?>
+<?php if(strpos($_SERVER['HTTP_HOST'], "broker.healthalliance.org") !== false){ ?>
 <link rel="alternate" type="application/rss+xml" title="Broker Flashes" href="/feed/?post_type=flash" />
 <link rel="alternate" type="application/rss+xml" title="Broker Medicare Flashes" href="/feed/?post_type=medicare-flash" />
 <link rel="alternate" type="application/rss+xml" title="Broker Announcements" href="/feed/?post_type=announcement" /> 
@@ -75,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
 					<div class="right browser">
 						<?php wp_nav_menu( array('menu' => 'main' ) ); ?>
-						<?php if(strpos($_SERVER[HTTP_HOST], "news.healthalliance.org") === false){ ?>
+						<?php if(strpos($_SERVER['HTTP_HOST'], "news.healthalliance.org") === false){ ?>
 						<a href="https://login.healthalliance.org/Account/Login"><button class="purple">Sign In</button></a>
 						<?php	} ?>
 					</div>

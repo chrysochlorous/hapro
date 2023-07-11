@@ -37,9 +37,9 @@
 		<?php
 			//$current_site = get_blog_details();
 			//print_r($current_site);
-			if(strpos($_SERVER[HTTP_HOST], "group.healthalliance.org") !== false){
+			if(strpos($_SERVER['HTTP_HOST'], "group.healthalliance.org") !== false){
 				$mailchimp_id = "2f0333c675";
-			} else if(strpos($_SERVER[HTTP_HOST], "broker.healthalliance.org") !== false){
+			} else if(strpos($_SERVER['HTTP_HOST'], "broker.healthalliance.org") !== false){
 				$mailchimp_id = "1a18ba1590";
 			}
 		?>
